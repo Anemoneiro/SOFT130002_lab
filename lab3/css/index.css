@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #f6f6f6;
+}
+
+header {
+    color: #000000;
+    background-color: #ffffff;
+    height: 70px;
+}
+
+nav {
+    float: left;
+    margin: auto 3em;
+    padding-left: 100px;
+}
+
+.HeaderTabs {
+    float: left;
+    margin: auto 2em;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.logo {
+    float: left;
+    margin-top: 15px;
+}
+
+a {
+    color: #000000;
+    text-decoration:none;
+}
+
+li {
+    display: inline-block;
+}
+
+nav div li {
+    padding: 0 1em;
+}
+
+a:hover{
+    color: #87bff2;
+}
+
+.UserInfo {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-right: 20px;
+    float: right;
+    color: #000000;
+    top:15px ;
+}
+
+.UserInfo button {
+    height: 30px;
+    width: 30px;
+}
+
+.UserInfo button img {
+    height: 15px;
+    width: 15px;
+}
+
+.UserOperation{
+    background-color: white;
+    margin-top: 16px;
+    font-weight: bolder;
+}
+
+aside {
+    float:right;
+    margin-right: 60px;
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+}
+
+aside a {
+    color: black;
+}
+
+aside ul {
+    width: 100%;
+}
+
+aside li {
+    display: block;
+    text-align: center;
+    padding: 0.25em 0;
+}
+
+.mainColumn{
+    padding: 10px;
+    margin: 20px 200px 20px 150px;
+    background-color: white;
+}
+
+.recommends {
+    display: inline;
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 1em 0 0.75em 0.75em;
+}
+
+.recommends li {
+    padding-left: 1em;
+}
+
+hr {
+    width: 90%;
+    margin: 2% 5%;
+    border-width:0;
+    height: 1px;
+    color:rgba(85, 125, 171, 0.6);
+    background-color:rgba(85, 125, 171, 0.6);
+}
+
+.contents {
+    margin: 1.5em;
+}
+
+.contentList {
+    display: block;
+    margin: 1.5em 0;
+}
+
+.contentItem {
+    display: block;
+    margin: 1em 0;
+}
+
+.InnerContent-inner {
+    margin: 0 2em 0 0;
+    line-height: 140%;
+}
+
+.InnerContent-inner p{
+    line-height: 160%;
+}
+
+h3 {
+    color: #000000;
+    margin: 0.6em 0;
+    font-weight: bolder;
+}
+
+.agree {
+    margin: 5px 0;
+    border-style: none;
+    background-color:#e2f3ff;
+    color: #1d88ec;
+}
+
+.fullLength {
+    border-style: none;
+    background-color: transparent;
+    color: #1d88ec;
+    font-size: 14px;
+}
+
+.AuthorInfo {
+    margin: 0.3em 0;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.pages {
+    margin: 0.8em 0 0.2em 0.8em;
+    font-size: 14px;
+}
+
+.active {
+    color:#87bff2;
+}
+
+footer{
+    background-color: transparent;
+    position: relative;
+    height: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    clear: both;
+    text-align: center;
+}

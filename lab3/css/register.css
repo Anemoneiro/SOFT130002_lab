@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 微软雅黑, Helvetica, sans-serif;
+    margin: 0;
+    color: #000000;
+    background-color: #f6f6f6;
+}
+
+header {
+    color: #000000;
+    background-color: #ffffff;
+    height: 70px;
+}
+
+nav {
+    float: left;
+    margin: auto 3em;
+}
+
+.HeaderTabs {
+    float: left;
+    margin: auto 3em;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.logo {
+    float: left;
+    margin-top: 15px;
+}
+
+h1 {
+    margin: 0.5em 4.5em;
+}
+
+.formbody {
+    margin: 50px;
+}
+
+a {
+    color: #000000;
+    text-decoration:none;
+}
+
+.contents{
+    padding: 10px;
+    margin: 20px 150px;
+    background-color: white;
+}
+
+a:hover{
+    color: #87bff2;
+}
+
+h1 {
+    margin: 2em 0 0 3em;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+p {
+    line-height: 150%;
+}
+
+input, textarea {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 35%;
+    background-color: #ffffff;
+    border: #56707f solid 1px;
+    border-radius: 3px;
+    color: #000000;
+}
+
+select {
+    margin: 0.4em 0;
+    background-color: #ffffff;
+    border: #56707f solid 1px;
+    color: #000000;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: 1em;
+}
+
+input[type="button"],input[type="submit"]  {
+    background-color: #ffffff;
+    border: #171a21 solid 1px;
+    width: 4em;
+}
+
+input[type="button"],input[type="submit"],input[type="checkbox"], input[type="radio"], select:hover {
+    cursor: pointer;
+}
+
+textarea {
+    height: 15em;
+}
