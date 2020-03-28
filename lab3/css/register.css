@@ -55,8 +55,16 @@ a:hover{
 
 h1 {
     margin: 2em 0 0 3em;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bolder;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+section {
+    background-color: white;
+    margin: 0 150px 80px 150px;
+    padding: 0.1em 0.1em;
 }
 
 p {
