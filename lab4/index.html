@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <title>首页 - TravelPic</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img alt="Brand" src="images/icons/travelpic_logo.png" width="80px" height="40px"></a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html" id="Homepage">主页 <span class="sr-only">(current)</span></a></li>
+              <li><a href="" id="Browser">浏览</a></li>
+              <li><a href="" id="Search">搜索</a></li>
+            </ul>
+            <ul class="nav navbar-nav nav-pills navbar-right">
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true" id="Personal">个人中心 <span class="caret"></span></a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li><a href="" id="Upload"><i class="glyphicon glyphicon-upload"></i> 上传</a></li>
+                    <li><a href="" id="MyPhoto"><i class="glyphicon glyphicon-picture"></i> 我的照片</a></li>
+                    <li><a href="" id="MyFavor"><i class="glyphicon glyphicon-heart"></i> 我的收藏</a></li>
+                    <li><a href="" id="Login"><i class="glyphicon glyphicon-log-in"></i> 登入</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/background/sunset-mountains.jpg" alt="...">
+            <div class="carousel-caption">
+              Sunset & Mountains
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/background/phase-of-the-moon.jpg" alt="...">
+            <div class="carousel-caption">
+              Phase of the Moon
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/background/plum-blossom.jpg" alt="...">
+            <div class="carousel-caption">
+              Plum Blossom
+            </div>
+          </div>
+        </div>
+      
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="CornerButtons">
+      <div id="back-to-top">
+          <input type="button" onclick="window.scrollTo(0,0)">
+      </div>
+      <div id="refresh">
+          <input type="button" onclick="alert('图片已刷新')">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <div class="picDisplay">
+              <a href="#">
+                <div class="realPic" id="picA">
+                </div>
+              </a>
+            </div>
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <div class="picDisplay">
+              <a href="#">
+                <div class="realPic" id="picB">
+                </div>
+              </a>
+            </div>
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <div class="picDisplay">
+              <a href="#">
+                <div class="realPic" id="picC">
+                </div>
+              </a>
+            </div>
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <div class="picDisplay">
+              <a href="#">
+                <div class="realPic" id="picD">
+                </div>
+              </a>
+            </div>
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <div class="picDisplay">
+              <a href="#">
+                <div class="realPic" id="picE">
+                </div>
+              </a>
+            </div>
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <div class="picDisplay">
+              <a href="#">
+                <div class="realPic" id="picF">
+                </div>
+              </a>
+            </div>
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <div class="picDisplay">
+              <a href="#">
+                <div class="realPic" id="picG">
+                </div>
+              </a>
+            </div>
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+            <div class="picDisplay">
+              <a href="#">
+                <div class="realPic" id="picH">
+                </div>
+              </a>
+            </div>
+          <div class="caption">
+            <h3>Thumbnail label</h3>
+            <p>...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+        <div class="container">
+           <div class="row">
+              <div class="col-md-3">
+                 <p><a>使用条款</a></p>
+                        <p><a>隐私保护</a></p>
+                        <p><a>Cookie</a></p>
+              </div>
+              <div class="col-md-3">
+                 <p><a>关于</a></p>
+                 <p><a>联系我们</a></p>          
+              </div>
+
+              <div class="col-md-3">
+                <div>
+                   <img src="images/icons/weixin.png" width="20px" />
+                   <img src="images/icons/twitter.png" width="20px" />
+               </div>
+               <div>
+                   <img src="images/icons/qq.png" width="20px" />
+                   <img src="images/icons/github.png" width="20px" />
+               </div>
+                </div>  
+                  
+              <div class="col-md-3">
+                  <img src="images/icons/QRcode.png" width="60px"/>
+              </div>
+          </div> 
+        </div>
+        
+        <div id="copyrightRow">
+           <div class="container">
+              <div class="row">
+                <p class="copyright">Copyright© by Xinran Duan. All Rights Reserved. 备案号：沪ORZ备18307130295号-16</p>
+              </div>
+           </div>
+        </div>
+     </footer>
+
+</body>
+</html>
