@@ -7,7 +7,7 @@
 ## 实现截图
 
 #### github截图
-<img src="src/githubpage.png" alt="running1" style="zoom: 67%;" />
+<img src="src/githubpage.png" alt="github" style="zoom: 67%;" />
 
 
 
