@@ -139,7 +139,7 @@ $('table td').click(function(){
         //将原来的位置替换为input框
         $(this).addClass('input').html('<input type="text" value="'+ $(this).text() +'" />').find('input').focus().blur(function() {
             //失去对焦之后删除input框，html变为input框中的值
-            $(this).parent().removeClass('input').html($(this).val() || 0);
+            $(this).parent().removeClass('input').html($(this).val());
         });
     }
     //光标自动定位于单元格的首个字符或者汉字前
